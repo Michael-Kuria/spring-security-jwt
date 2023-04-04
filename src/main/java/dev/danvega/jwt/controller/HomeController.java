@@ -19,4 +19,9 @@ public class HomeController {
 	public String secure() {
 		return "This is secured!";
 	}
+
+	@GetMapping("/yes")
+	public String yes() {
+		return "This is secured!";
+	}
 }
